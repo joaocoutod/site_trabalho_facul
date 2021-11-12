@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*** UTILITARIOS **/
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{width: 100%;}
+.boxshadown{
+  border: 1px solid #eee;
+  -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.boxshadown:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
+.jumbotron{
+    width: 100%;
+    background-color: #fc7d22e7;
+    color: #fff;
+}
+.jumbotron .j_text{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+.navbar{
+    width: 100%;
+    text-align: center;
+}
+.navbar .nav_text{
+    padding: 20px;
+}
+
+.navbar .nav_text a{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+.navbar .nav_text a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar .nav_text .atv{
+    border-bottom: 2px solid #FF9345;
+}
+
+.navbar .nav_text .atv:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/****************************************/
+.contratenos{
+    text-align: left;
+    width: 100%;
+    height: auto;
+}
+.contratenos h1, p {
+    padding: 10px;
+}
+.contratenos h1{
+    font-weight: bold;
+    font-size: 5vw;
+    margin-bottom: 5px;
+}
+.contratenos p{
+    font-size:20px;
+}
+.vectorpng{
+    width: 100%;
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*****************************************/
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+.columnss {
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+}
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+
+  .price .headerL {
+    background-color: #FF9345;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+/*****************************/
+/* Footer */
+.footer {
+    padding: 50px;
+    text-align: center;
+    background: #fc7d22e7;
+    color: #fff;
+    font-size: 10px;
+  }
+
+/****************************/
+/*sobre*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 10 0%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+/****************************/
+
+/*****************************/
+/***********Contato***************/
+/*****************************/
+.contato{
+  text-align: left;
+  width: 100%;
+  height: auto;
+}
+.contato p {
+  padding: 10px;
+}
+.contato p{
+  font-size:20px;
+}
+/**********************************/
+.form-contato input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.form-contato label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.form-contato input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/**************************************/
+.banner{
+  position: relative;
+  padding: 80px;
+  color: #000;
+  margin-top: 40px;
+}
+.bannerimg{
+  background-image: url(../img/foguetes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.bannerimg2{
+  background-image: url(../img/foguetes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.bannertxt{
+  padding: 20px;
+}
+.banner p, h2{
+  font-size: 40px;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 20px 30px;
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
